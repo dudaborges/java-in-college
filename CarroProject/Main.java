@@ -3,12 +3,11 @@ public class Main{
         Carro carro1 = new Carro("onix", 2020, "preto");
         Carro carro2 = new Carro("ford", 2021, "branco");
 
-        carro1.acelerar(10, 2);
+        Tela tela1 = new Tela();
+        double aceleracao = tela1.pedirAceleracao();
+        int tempo = tela1.pedirTempo();
 
-        
-
+        carro1.acelerar(aceleracao, tempo);
         System.out.print(carro1);
-        System.out.print(carro2);
-
     }
 }
