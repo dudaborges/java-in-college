@@ -4,7 +4,7 @@ public class Main{
 
         System.out.print(profissao1);
 
-        Motorista motorista1 = new Motorista("Thiago", "Silva", 24, 34879);
+        Motorista motorista1 = new Motorista("Thiago", "Silva", 17, 34879);
 
         System.out.print(motorista1);
 
