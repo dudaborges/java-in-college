@@ -12,7 +12,7 @@ public class Carro extends TransportePrivado{
 
     @Override
     public boolean equals(Object o){
-        // Código aqui
+        return false;
     }
 
     @Override

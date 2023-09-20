@@ -15,6 +15,8 @@ public class Main{
 
         Moto moto1 = new Moto("Honda", "street","branco", "32bu");
         System.out.print(moto1);
-        moto1.acelerar();        
+        moto1.acelerar();   
+        
+             
     }
 }
