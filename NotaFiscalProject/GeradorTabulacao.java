@@ -1,8 +1,9 @@
-// import java.util.ArrayList;
+import java.util.ArrayList;
 
-// public class GeradorTabulacao extends NotaFiscal{
+public class GeradorTabulacao extends GeradorArquivo{
     
-//     public void gerarArquivo(ArrayList dados){
+    public void gerarArquivo(ArrayList<Produto> produtos){
+        System.out.print("gerar arquivo TABULADO");
 
-//     }
-// }
+    }
+}

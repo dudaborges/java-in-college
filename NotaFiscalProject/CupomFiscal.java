@@ -1,14 +1,18 @@
 import java.util.ArrayList;
 
 public class CupomFiscal{
-    private int id;
-    private double precoTotal;
+    private ArrayList<Produto> produtos;
 
-    
-//a cada 5 itens ele gerar um cupom fiscal
-    public void gerarNotaFiscal(ArrayList<Produto> produtos){
-        for (int i = 0; i < 5; i++){
-        }
+    public CupomFiscal(){
+        produtos = new ArrayList<Produto>();
     }
 
+    public void adicionarProduto(Produto produto){
+        produtos.add(produto);
+    }
+
+    public ArrayList<Produto> getProdutos(){
+        return produtos;
+    }
+    
 }
